@@ -44,25 +44,25 @@ Create a Log Analytics Workspace, add it to the same resource group as your VM, 
 <img src="https://i.imgur.com/JOF3qNM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Microsoft Defender  <br/>
+Navigate to Microsoft Defender> Environment settings > your log analytics workspace.  <br/>
 <img src="https://i.imgur.com/TOMFchR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Set 'SQL servers on machines' to 'off'  <br/>
 <img src="https://i.imgur.com/V1YII98.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Click on the 'Data collection' tab and select 'All events'. <br/>
 <img src="https://i.imgur.com/iv6BrGO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Connect your log analytics workspace to your VM so that you can ingest logs. <br/>
 <img src="https://i.imgur.com/d1HhyYk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 <img src="https://i.imgur.com/AypefVQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Add Azure Sentinel to your log analytics workspace. <br/>
 <img src="https://i.imgur.com/KCuZolw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 <img src="https://i.imgur.com/IrhezJE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
