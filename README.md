@@ -57,21 +57,61 @@ Microsoft Defender  <br/>
 <img src="https://i.imgur.com/d1HhyYk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://i.imgur.com/TOMFchR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AypefVQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://i.imgur.com/TOMFchR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KCuZolw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://i.imgur.com/TOMFchR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IrhezJE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://i.imgur.com/TOMFchR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8hRwNHQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://i.imgur.com/TOMFchR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/E76dhUu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<img src="https://i.imgur.com/YxJx3oJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+use script  <br/>
+ <br/>
+ <br/>
+ <br/>
+<img src="https://i.imgur.com/7sGCMZv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/ykHphlU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/3Hdd2WV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/sxh5mk5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/xSxa1HV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/N8fJfKS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/uVKArJH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+use query   <br/>
+<br/>
+<br/>
+<br/>
+<img src="https://i.imgur.com/JdkUkM3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/a7cU54L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
 </p>
 
 <!--
