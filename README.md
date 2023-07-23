@@ -1,7 +1,7 @@
 <h1>Azure Sentinel Lab</h1>
 <br/>
 <h2>Description</h2>
-In this lab, I deploy a VM in Azure, ingest logs into Log Analytics Workspace, and then configure Azure Sentinel to display global attack data (RDP brute force) on a world map according to physical location and magnitude of attacks. 
+In this lab, I deploy a VM in Azure, ingest logs into Log Analytics Workspace, and then configure Azure Sentinel to display global attack data (RDP brute force) on a world map according to physical location and magnitude of attacks. Inspired by Josh Madakor.
 <br />
 
 
@@ -114,7 +114,7 @@ This is the product. The map shows 2 failed RDP logins from the Pennslyvania are
 <img src="https://i.imgur.com/JdkUkM3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-After a few more hours, there is a lot more action. 89 failed RDP logins from India!
+After a few hours, there is a lot more action. 89 failed RDP logins from India!
 <img src="https://i.imgur.com/a7cU54L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
