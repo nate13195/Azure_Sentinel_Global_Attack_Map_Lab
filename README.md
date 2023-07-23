@@ -118,6 +118,8 @@ After a few hours, there is a lot more action. 89 failed RDP logins from India!
 <img src="https://i.imgur.com/a7cU54L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+The next morning, there has been even more action. Over 13,000 failed RDP logins from Luxemburg! This concludes the lab!
+<img src="https://i.imgur.com/v0S44E3.png" height="80%" width="80%" alt="Lab Steps"/>
 
 
 </p>
