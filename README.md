@@ -66,47 +66,55 @@ Add Azure Sentinel to your log analytics workspace. <br/>
 <img src="https://i.imgur.com/IrhezJE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Use Remote Desktop Connection to connect from your computer to the VM. (Login incorrectly at first) <br/>
 <img src="https://i.imgur.com/8hRwNHQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Once your connected to your VM, open up event viewer and try to find where your unsuccessful RDP login was logged. It Should be under Event ID 4625. The log shows the username that the attacker used and their IP address. These are the logs that we want to ingest into our log analytics workspace, but before we do that, we will send these logs out to an API that will provide us with the longitude and latitude of our attackers. <br/>
 <img src="https://i.imgur.com/E76dhUu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <img src="https://i.imgur.com/YxJx3oJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-use script  <br/>
- <br/>
- <br/>
- <br/>
+Turn off Windows firewall on the VM, and then Download and run the powershell script labled 'Custom_Security_Log_Exporter.ps1' (located within this repository). You will have to navigate to ipgeolocation.io and sign up to get your own API key. This API will return the longitude and latitude of an attacker based off their IP address.
+<img src="https://i.imgur.com/CizaMvX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Navigate to where the custom logs are being outputted on your VM. 'C:\ProgramData\failed_rdp.log'  <br/>
 <img src="https://i.imgur.com/7sGCMZv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Copy the contents of the log, save it as a text file and store it on the desktop of your real computer. We are going to uses this as a sample for the creation of our custom log in Log analytics worksapace.  <br/>
 <img src="https://i.imgur.com/ykHphlU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Navigate to your Log Analytics Workspace > Tables > Create new custom log (MMA based). <br/>
 <img src="https://i.imgur.com/3Hdd2WV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Upload the sample file that you stored on your desktop. <br/>
 <img src="https://i.imgur.com/sxh5mk5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Enter the file path for where the custom logs are being outputted in the VM. 'C:\ProgramData\failed_rdp.log' <br/>
 <img src="https://i.imgur.com/xSxa1HV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Add a workbook to Azure Sentinel. <br/>
 <img src="https://i.imgur.com/N8fJfKS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Select 'Add query' and paste in the Log Analytics Workspace Query provided as a file within this repository <br/>
 <img src="https://i.imgur.com/uVKArJH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-use query   <br/>
 <br/>
 <br/>
-<br/>
+This is the product. The map shows 2 failed RDP logins from the Pennslyvania area (when I purposely failed to login)
 <img src="https://i.imgur.com/JdkUkM3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+After a few more hours, there is a lot more action. 89 failed RDP logins from India!
 <img src="https://i.imgur.com/a7cU54L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
