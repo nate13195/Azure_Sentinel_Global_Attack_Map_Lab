@@ -1,4 +1,4 @@
-<h1>Azure Sentinel Lab</h1>
+<h1>Azure Sentinel Global Attack Map Lab</h1>
 <br/>
 <h2>Description</h2>
 In this lab, I deploy a VM in Azure, ingest custom logs into Log Analytics Workspace, and then configure Azure Sentinel to display global attack data (RDP brute force) on a world map according to physical location and magnitude of attacks. Inspired by Josh Madakor.
